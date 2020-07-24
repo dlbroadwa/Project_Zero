@@ -1,0 +1,11 @@
+
+[
+java:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¬Ş‡ú
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(•˜¹ÿşÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÂêĞûÿÿÿÿ
+`
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(‡²€·ıÿÿÿÿ
+5
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Î½†ûÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(„§ñ£

@@ -1,19 +1,16 @@
 package com.company.services;
 
-import com.company.apps.Application;
-import com.company.apps.Inventory;
-import com.company.apps.InventoryManagementApp;
-import com.company.apps.Item;
-import com.company.connections.MyPostgresConnection;
+import com.company.models.Application;
+import com.company.models.Inventory;
+import com.company.models.InventoryManagementApp;
+import com.company.models.Item;
 import com.company.screens.InventoryScreen;
-import javafx.stage.Screen;
 
 import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -79,7 +76,7 @@ public class Function{
     /******** prints the inventory screen to make purchases ***************************************/
     public void printSelection() throws SQLException {
         Statement statement = connection.createStatement();
-        ResultSet resultSet = statement.executeQuery("select * from inventoryapp.inventory");
+        ResultSet resultSet = statement.executeQuery("select * from inventoryapp.store_inventory");
 
         System.out.print("Online Market:  \n"+
                 "--------------------------\n"+

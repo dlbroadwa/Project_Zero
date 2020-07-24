@@ -1,0 +1,9 @@
+
+Œ
+java:S1319"xThe type of the "current_items" object should be an interface such as "List" rather than the implementation "ArrayList".(Äø’õ
+d	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äø’õ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(Á¡èŸ
+j	java:S116"XRename this field "current_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øòË
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Û¬ñĞÿÿÿÿÿ
+F
+java:S1172"&Remove these unused method parameters.(÷í¸ºøÿÿÿÿ8ö†Ê´.

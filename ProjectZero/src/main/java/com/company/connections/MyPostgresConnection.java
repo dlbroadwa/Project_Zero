@@ -1,14 +1,14 @@
 package com.company.connections;
 
-import com.company.apps.Application;
-import com.company.apps.InventoryManagementApp;
+import com.company.models.Application;
+import com.company.models.InventoryManagementApp;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class MyPostgresConnection extends MyConnection {
-    protected Connection connection = null;
+    static Connection connection;
 
     public MyPostgresConnection(String url, String username, String password, String schema) {
         this.url = url;

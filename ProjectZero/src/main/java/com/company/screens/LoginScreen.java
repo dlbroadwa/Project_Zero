@@ -1,15 +1,13 @@
 package com.company.screens;
 
-import com.company.apps.Application;
-import com.company.apps.Inventory;
-import com.company.apps.InventoryManagementApp;
-import com.company.apps.Item;
-import com.company.connections.MyPostgresConnection;
+import com.company.models.Application;
+import com.company.models.Inventory;
+import com.company.models.InventoryManagementApp;
+import com.company.models.Item;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class LoginScreen implements Screens{
       protected Connection connection;

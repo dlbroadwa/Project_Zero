@@ -1,15 +1,13 @@
 package com.company.tests;
 
-import com.company.apps.Inventory;
-import com.company.apps.Item;
+import com.company.models.Inventory;
+import com.company.models.Item;
 import com.company.screens.InventoryScreen;
 import com.company.screens.Screens;
 import org.junit.Test;
 import org.mockito.Mock;
 
 import java.util.ArrayList;
-
-import static org.junit.Assert.*;
 
 public class InventoryScreenTest {
     private Item fakeItem;

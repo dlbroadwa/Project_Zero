@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.connections.MyConnection;
 import com.company.connections.MyPostgresConnection;
+import org.postgresql.Driver;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,7 +12,7 @@ public class Main {
     //The static block is used to preempt the data base connection
     static {
         try {
-            DriverManager.registerDriver(new org.postgresql.Driver());
+            DriverManager.registerDriver(new Driver());
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
@@ -19,8 +20,8 @@ public class Main {
 
     public static void main(String[] args) {
         //database connection used to link to the AWS DB
-        MyConnection connect = new MyPostgresConnection(
-                "jdbc:postgresql://dlbroadwadb.cpbqys5iu3x8.us-east-2.rds.amazonaws.com:5432/postgres",
+        new MyPostgresConnection(
+                "jdbc:postgresql://localhost:5432/postgres",
                 "postgres","enter123","inventoryapp");
 
     }

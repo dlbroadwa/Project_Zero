@@ -1,8 +1,8 @@
 package com.company.screens;
 
-import com.company.apps.Application;
-import com.company.apps.Inventory;
-import com.company.apps.Item;
+import com.company.models.Application;
+import com.company.models.Inventory;
+import com.company.models.Item;
 
 import java.sql.Connection;
 
