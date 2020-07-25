@@ -1,10 +1,8 @@
 package com.company;
 
-import com.company.connections.MyConnection;
 import com.company.connections.MyPostgresConnection;
 import org.postgresql.Driver;
 
-import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
