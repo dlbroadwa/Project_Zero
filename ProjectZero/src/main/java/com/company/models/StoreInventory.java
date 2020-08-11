@@ -6,14 +6,14 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.math.BigDecimal;
-public class Inventory {
+class StoryInventory {
     private ArrayList<Item> current_items;
     private BigDecimal current_cash;
 
     protected Connection connection;
     protected Statement statement;
 
-    public Inventory(Connection connection){
+    public StoryInventory(Connection connection){
         this.connection = connection;
         populateInventory();
 

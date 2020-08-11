@@ -25,3 +25,13 @@ _
 /src/main/java/com/company/dao/InventoryDAO.java,7\2\72f4c0e77c69a5ec0e1dcec19d6b84f6a2cc0f6f
 Z
 *src/main/java/com/company/dao/ItemDAO.java,9\4\943649fe51a9e88d14a70196790b6c7b956f50c5
+Z
+*src/main/java/com/company/models/User.java,e\9\e942fee87d0c729c25730f372c4fd56b79bfa563
+\
+,src/main/java/com/company/models/Client.java,7\2\7213389be589c91088324214868887736aa6066f
+\
+,src/main/java/com/company/dao/ClientDAO.java,8\0\80eb88b938c0a21dd8ecb42d9f16507f35ac59e1
+`
+0src/main/java/com/company/services/Function.java,9\4\943b26e86876040d572041a224bb3eb9210bd57a
+Z
+*src/main/java/com/company/dao/UserDAO.java,1\7\17fe98cacc2aa5d93a9fa6f6cbb65cd2c70da843

@@ -2,7 +2,7 @@ package com.company.dao;
 
 import java.util.List;
 
-public class ItemDAO implements DAO {
+public class StoreInventoryDAO implements DAO{
 
     @Override
     public boolean update(Object obj) {

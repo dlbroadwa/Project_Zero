@@ -1,6 +1,8 @@
+
 package com.company.models;
 
 
+import com.company.dao.StoreInventoryDAO;
 import com.company.screens.InventoryScreen;
 import com.company.screens.LoginScreen;
 import com.company.screens.Screens;
@@ -20,7 +22,7 @@ public class InventoryManagementApp extends Application {
 
     public void run() throws SQLException {
 
-        Inventory session = new Inventory(connection);
+/*        StoreInventoryDAO session = new Inventory(connection);
         Screens login = new LoginScreen(connection);
         Screens inventory = new InventoryScreen(session);
         Function update = new Function();
@@ -30,7 +32,7 @@ public class InventoryManagementApp extends Application {
         inventory.display(this, session);
         System.out.println("Your account balance is "+session.getCurrent_cash());
 
-        update.function(this, connection,session);
+        update.function(this, connection,session);*/
 
     }
 
@@ -39,3 +41,4 @@ public class InventoryManagementApp extends Application {
         this.scan = new Scanner(System.in);
     }
 }
+

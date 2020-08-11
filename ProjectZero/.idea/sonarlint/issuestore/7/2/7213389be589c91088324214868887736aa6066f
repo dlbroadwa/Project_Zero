@@ -1,0 +1,11 @@
+
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û§äïûÿÿÿÿ8ˆÕÀ¸.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾›·ÿÿÿÿÿÿ8ˆÕÀ¸.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÂİô8ˆÕÀ¸.
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«°µŒ8ˆÕÀ¸.
+N
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ8ƒï–À¸.
+q	java:S116"URename this field "store_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø‘Ò‚8÷Ôš¿¸.
+t	java:S116"SRename this field "store_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äéû¦ıÿÿÿÿ8ŒÍ˜¿¸.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾›·ÿÿÿÿÿÿ8ˆÕÀ¸.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÂİô8ˆÕÀ¸.

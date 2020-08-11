@@ -1,0 +1,19 @@
+
+b
+java:S2095O"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÁèÂÁÿÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(¨–Ë€
+J
+java:S2200b"/Only the sign of the result should be examined.(ìĞ×ûÿÿÿÿ
+l	java:S116"XRename this field "current_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øòË
+P
+java:S1854>"5Remove this useless assignment to local variable "a".(±Œóùÿÿÿÿ
+M	java:S1064"9Replace this use of System.out or System.err by a logger.(º±
+q	java:S116"WRename this field "current_cash" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞŞûÒıÿÿÿÿ
+M	java:S106Q"9Replace this use of System.out or System.err by a logger.(ÜÜë,
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(ó“µçıÿÿÿÿ
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(å©ò
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(’·İşşÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(Û¬ñĞÿÿÿÿÿ
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(½õİ¥üÿÿÿÿ
+b
+java:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ

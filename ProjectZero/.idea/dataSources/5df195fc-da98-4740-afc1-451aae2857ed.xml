@@ -785,13 +785,13 @@ false Z
 false Zulu
 true posixrules
 </TimeZones>
-      <StartupTime>1594150470</StartupTime>
+      <StartupTime>1595706992</StartupTime>
     </root>
     <database id="2" parent="1" name="postgres">
       <ObjectId>13318</ObjectId>
       <Comment>default administrative connection database</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>602</IntrospectionStateNumber>
+      <IntrospectionStateNumber>611</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|16404|16406|1
 sequence|table|16417|16419|1
@@ -847,7 +847,7 @@ sequence|table|24576|24578|1
       <ObjectId>16395</ObjectId>
       <StateNumber>490</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>603</IntrospectionStateNumber>
+      <IntrospectionStateNumber>612</IntrospectionStateNumber>
     </schema>
     <schema id="15" parent="2" name="pg_catalog">
       <ObjectId>11</ObjectId>
@@ -860,7 +860,6 @@ sequence|table|24576|24578|1
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>507</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <schema id="17" parent="2" name="test">
@@ -951,10 +950,10 @@ sequence|table|24576|24578|1
       <CacheSize>1</CacheSize>
       <DataType>integer|0s</DataType>
     </sequence>
-    <table id="32" parent="14" name="inventory_list">
+    <table id="32" parent="14" name="client_list">
       <ObjectId>24578</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>515</StateNumber>
+      <StateNumber>609</StateNumber>
     </table>
     <table id="33" parent="14" name="stock_inventory">
       <ObjectId>16496</ObjectId>
