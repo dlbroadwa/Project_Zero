@@ -6,20 +6,90 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.math.BigDecimal;
-class StoryInventory {
-    private ArrayList<Item> current_items;
-    private BigDecimal current_cash;
+import java.util.Objects;
 
-    protected Connection connection;
-    protected Statement statement;
+public class StoreInventory {
+    private Connection connection;
+    private int storeID = 0;
+    private Item item;
+    private ArrayList<Item> currentItems;
 
-    public StoryInventory(Connection connection){
-        this.connection = connection;
-        populateInventory();
+    public StoreInventory(){ }
 
+    public StoreInventory(int storeID){
+        this.storeID = storeID;
     }
 
-    public void populateInventory(){
+    public StoreInventory(int storeID,Item item){
+        this.currentItems.add(item);
+    }
+
+    public StoreInventory(int storeID, ArrayList<Item> list){
+        this(storeID);
+        this.currentItems = new ArrayList<>(list);
+    }
+
+    public int getStoreID() {
+        return storeID;
+    }
+
+    public void setStoreID(int storeID) {
+        this.storeID = storeID;
+    }
+
+    public Item getItem() {
+        return item;
+    }
+
+    public void setItem(Item item) {
+        this.item = item;
+    }
+
+    public ArrayList<Item> getCurrentItems() {
+        return currentItems;
+    }
+
+    public void setCurrentItems(ArrayList<Item> currentItems) {
+        this.currentItems = currentItems;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof StoreInventory)) return false;
+        StoreInventory that = (StoreInventory) o;
+        return storeID == that.storeID &&
+                currentItems.equals(that.currentItems);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(storeID, currentItems);
+    }
+
+    @Override
+    public String toString() {
+        return "StoreInventory{" +
+                "connection=" + connection +
+                ", storeID=" + storeID +
+                ", item=" + item +
+                ", currentItems=" + currentItems +
+                '}';
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*public void populateInventory(){
         Item x;
         String name;
         current_items = new ArrayList<>();
@@ -67,19 +137,4 @@ class StoryInventory {
             ex.printStackTrace();
         }
     }
-
-    public ArrayList<Item> getCurrent_items() {
-        return current_items;
-    }
-
-    public void setCurrent_items(ArrayList<Item> current_items) {
-        this.current_items = current_items;
-    }
-    public BigDecimal getCurrent_cash() {
-        return current_cash;
-    }
-
-    public void setCurrent_cash(BigDecimal current_cash) {
-        this.current_cash = current_cash;
-    }
-}
+*/

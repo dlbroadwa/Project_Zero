@@ -1,25 +1,30 @@
+/*
 package com.company.screens;
 
 import com.company.models.Application;
-import com.company.models.Inventory;
+import com.company.models.StockInventory;
 import com.company.models.Item;
 
 import java.sql.Connection;
 
 import java.util.ArrayList;
 
-/**********************Calls screen to print your current inventory *********** **/
+*/
+/**********************Calls screen to print your current inventory *********** **//*
+
 
 public class InventoryScreen implements Screens {
 
     protected Connection connection;
-    protected Inventory inventory;
+    protected StockInventory inventory;
     protected ArrayList<Item> current_items;
 
     public InventoryScreen(Inventory i){
         this.inventory= i;
     }
-    /********************** and controls the users input ***************************************/
+    */
+/********************** and controls the users input ***************************************//*
+
     public Screens display(Application app, Inventory i) {
         this.current_items = inventory.getCurrent_items();
         printCurrentInventory(current_items);
@@ -29,7 +34,9 @@ public class InventoryScreen implements Screens {
 
     public InventoryScreen printCurrentInventory(ArrayList<Item> current_items){
         int x = 0;
-        /**********************loops to take the object and output it into string*** **/
+        */
+/**********************loops to take the object and output it into string*** **//*
+
 
         System.out.print("Your Current Inventory: \n"+
                         "--------------------------\n"+
@@ -42,9 +49,12 @@ public class InventoryScreen implements Screens {
                     + current_items.get(x).getQuantity()+"\n"
                     );
             x++;
-        } /**********************  sends it back to the display method***************************************/
+        } */
+/**********************  sends it back to the display method***************************************//*
+
         return null;
     }
 
 
 }
+*/

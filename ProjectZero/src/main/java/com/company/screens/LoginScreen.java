@@ -1,3 +1,4 @@
+/*
 package com.company.screens;
 
 import com.company.models.Application;
@@ -60,3 +61,4 @@ public class LoginScreen implements Screens{
       }
 }
 
+*/

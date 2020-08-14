@@ -14,6 +14,7 @@ public class UserDAO implements DAO {
             this.connect = (MyPostgresConnection) connect;
         }
     }
+
     @Override
     public boolean update(Object obj) {
         return false;

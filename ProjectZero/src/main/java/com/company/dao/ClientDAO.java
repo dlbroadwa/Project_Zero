@@ -1,8 +1,19 @@
 package com.company.dao;
 
+import com.company.connections.MyConnection;
+import com.company.connections.MyPostgresConnection;
+
 import java.util.List;
 
 public class ClientDAO implements DAO{
+    
+    private MyPostgresConnection connect;
+
+    public ClientDAO(MyConnection connect){
+        if(connect != null){
+            this.connect = (MyPostgresConnection) connect;
+        }
+    }
     @Override
     public boolean update(Object obj) {
         return false;

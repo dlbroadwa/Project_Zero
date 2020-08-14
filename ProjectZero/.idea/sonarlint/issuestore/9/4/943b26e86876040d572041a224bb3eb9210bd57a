@@ -1,19 +1,19 @@
 
-b
-java:S2095O"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÁèÂÁÿÿÿÿÿ
-N	java:S106/"9Replace this use of System.out or System.err by a logger.(¨–Ë€
-J
-java:S2200b"/Only the sign of the result should be examined.(ìÐ×žûÿÿÿÿ
-l	java:S116"XRename this field "current_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øòË
-P
-java:S1854>"5Remove this useless assignment to local variable "a".(±ŽŒóùÿÿÿÿ
-M	java:S1064"9Replace this use of System.out or System.err by a logger.(º±
 q	java:S116"WRename this field "current_cash" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐÞûÒýÿÿÿÿ
 M	java:S106Q"9Replace this use of System.out or System.err by a logger.(ÜÜë,
-S	java:S106B"9Replace this use of System.out or System.err by a logger.(ó“µçýÿÿÿÿ
-N	java:S106c"9Replace this use of System.out or System.err by a logger.(å©žò
+b
+java:S2095O"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ÁèÂÁÿÿÿÿÿ
+l	java:S116"XRename this field "current_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øòË
+J
+java:S2200b"/Only the sign of the result should be examined.(ìÐ×žûÿÿÿÿ
+M	java:S1064"9Replace this use of System.out or System.err by a logger.(º±
+P
+java:S1854>"5Remove this useless assignment to local variable "a".(±ŽŒóùÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(¨–Ë€
 S	java:S106e"9Replace this use of System.out or System.err by a logger.(’·Ýþþÿÿÿÿ
-S	java:S106U"9Replace this use of System.out or System.err by a logger.(Û¬ñÐÿÿÿÿÿ
 S	java:S106;"9Replace this use of System.out or System.err by a logger.(½õÝ¥üÿÿÿÿ
 b
 java:S2095N"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµþÿÿÿÿ
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(Û¬ñÐÿÿÿÿÿ
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(å©žò
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(ó“µçýÿÿÿÿ

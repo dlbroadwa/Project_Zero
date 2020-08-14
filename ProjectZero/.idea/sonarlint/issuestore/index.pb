@@ -35,3 +35,13 @@ Z
 0src/main/java/com/company/services/Function.java,9\4\943b26e86876040d572041a224bb3eb9210bd57a
 Z
 *src/main/java/com/company/dao/UserDAO.java,1\7\17fe98cacc2aa5d93a9fa6f6cbb65cd2c70da843
+d
+4src/main/java/com/company/models/StoreInventory.java,c\f\cf534d8daa686630e76235fd836511249d21814e
+d
+4src/main/java/com/company/models/StockInventory.java,d\8\d8a25866673f06f7f80b705fa2e413f0f9de1297
+`
+0src/main/java/com/company/dao/UserPocketDAO.java,2\b\2bd42d5242d6a4f7ea78f63287f8e48f93a0fc68
+d
+4src/main/java/com/company/dao/StoreInventoryDAO.java,e\5\e5c201219715d0f3cd9714ac76b852a59c7bb245
+d
+4src/main/java/com/company/dao/StockInventoryDAO.java,d\e\de8907c1ab46a5f4ccb6b1d5868a72fe33199b61

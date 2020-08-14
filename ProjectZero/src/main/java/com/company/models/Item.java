@@ -3,35 +3,53 @@ package com.company.models;
 import java.math.BigDecimal;
 
 public class Item {
-    private int item_id=0;
-    private String item_name= "";
-    private BigDecimal item_price=BigDecimal.valueOf(0);
+    private int itemID=0;
+    private String itemName= "";
+    private BigDecimal itemPrice=BigDecimal.valueOf(0);
     private int quantity= 0;
 
-    public int getItem_id() {
-        return item_id;
-    }
-    public void setItem_id(int item_id) {
-        this.item_id = item_id;
+    public Item(){}
+
+    public Item(int itemID, String itemName){
+        this.itemID = itemID;
+        this.itemName = itemName;
+        }
+    public Item(int itemID, String itemName,int quantity){
+        this(itemID, itemName);
+        this.quantity = quantity;
     }
 
-    public String getItem_name() {
-        return item_name;
-    }
-    public void setItem_name(String item_name) {
-        this.item_name = item_name;
+    public Item(int itemID, String itemName,BigDecimal itemPrice, int quantity){
+        this(itemID, itemName, quantity);
+        this.itemPrice = itemPrice;
+
     }
 
-    public BigDecimal getItem_price() {
-        return item_price;
+    public int getItemID() {
+        return itemID;
     }
-    public void setItem_price(BigDecimal item_price) {
-        this.item_price = item_price;
+    public void setItemID(int itemID) {
+        this.itemID = itemID;
+    }
+
+    public String getItemName() {
+        return itemName;
+    }
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
+    }
+
+    public BigDecimal getItemPrice() {
+        return itemPrice;
+    }
+    public void setItemPrice(BigDecimal itemPrice) {
+        this.itemPrice = itemPrice;
     }
 
     public int getQuantity() {
         return quantity;
     }
+
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }

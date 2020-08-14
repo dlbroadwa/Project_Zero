@@ -1,3 +1,4 @@
+/*
 package com.company.tests;
 
 import com.company.services.Function;
@@ -35,4 +36,4 @@ public class FunctionTest {
     }
 
 
-}
+}*/

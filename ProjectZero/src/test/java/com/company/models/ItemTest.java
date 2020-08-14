@@ -1,3 +1,4 @@
+/*
 package com.company.models;
 
 import org.junit.Test;
@@ -36,16 +37,20 @@ public class ItemTest {
 
     @Test
     public void getItem_pricetest() {
-       /* BigDecimal f =1;
+       */
+/* BigDecimal f =1;
         Fake.setItem_price(f);
-        assertEquals(1.0f,Fake.getItem_price(),0.05);*/
+        assertEquals(1.0f,Fake.getItem_price(),0.05);*//*
+
     }
 
     @Test
     public void setItem_pricetest() {
-    /*    float f =1;
+    */
+/*    float f =1;
         Fake.setItem_price(f);
-        assertEquals(1.0f,Fake.getItem_price(),0.05);*/
+        assertEquals(1.0f,Fake.getItem_price(),0.05);*//*
+
     }
 
     @Test
@@ -61,4 +66,4 @@ public class ItemTest {
         Fake.setQuantity(v);
         assertEquals(100,Fake.getQuantity());
     }
-}
+}*/

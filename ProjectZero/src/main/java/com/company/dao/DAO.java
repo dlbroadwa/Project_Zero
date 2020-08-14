@@ -2,7 +2,7 @@ package com.company.dao;
 
 import java.util.List;
 
-public interface DAO<Q,ID> {
+public interface DAO<ID, Q> {
     boolean update(Q obj);
     boolean save(Q obj);
     boolean delete(Q obj);

@@ -2,11 +2,11 @@
 package com.company.models;
 
 
-import com.company.dao.StoreInventoryDAO;
+/*import com.company.dao.StoreInventoryDAO;
 import com.company.screens.InventoryScreen;
 import com.company.screens.LoginScreen;
 import com.company.screens.Screens;
-import com.company.services.Function;
+import com.company.services.Function;*/
 
 import java.sql.Connection;
 import java.sql.SQLException;

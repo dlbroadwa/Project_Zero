@@ -1,0 +1,10 @@
+
+Q
+java:S3740	"/Provide the parametrized type for this generic.(¶±éÆıÿÿÿÿ8ĞÄèˆ¾.
+H
+java:S1168#"+Return an empty collection instead of null.(¥¹ï8ĞÄèˆ¾.
+H
+java:S1068
+"+Remove this unused "connect" private field.(ÙÊ’Ú8„‘õˆ¾.
+M
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8„‘õˆ¾.
