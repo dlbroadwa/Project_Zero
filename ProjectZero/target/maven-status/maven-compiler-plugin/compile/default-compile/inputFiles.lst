@@ -1,11 +1,21 @@
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\screens\Screens.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\apps\Item.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\apps\Application.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\Main.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\services\Function.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\apps\InventoryManagementApp.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\connections\MyConnection.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\connections\MyPostgresConnection.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\apps\Inventory.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\screens\InventoryScreen.java
-C:\Users\Espad\OneDrive\Desktop\Revature\Repository\2004-apr06-java\Projectzerotest\src\main\java\com\company\screens\LoginScreen.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\dao\DAO.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\models\Item.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\dao\UserDAO.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\models\StockInventory.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\connections\MyPostgresConnection.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\dao\StoreInventoryDAO.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\models\Application.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\models\User.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\dao\UserPocketDAO.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\screens\InventoryScreen.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\models\InventoryManagementApp.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\dao\ItemDAO.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\dao\ClientDAO.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\dao\StockInventoryDAO.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\screens\Screens.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\services\Function.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\Main.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\models\StoreInventory.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\screens\LoginScreen.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\connections\MyConnection.java
+C:\Users\Espad\Desktop\General GitHub\Project_Zero\ProjectZero\src\main\java\com\company\models\Client.java

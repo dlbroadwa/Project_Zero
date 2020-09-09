@@ -3,10 +3,13 @@ package com.company.models;
 import java.math.BigDecimal;
 
 public class Item {
-    private int itemID=0;
+    private int itemID;
     private String itemName= "";
+    private String itemDescription="";
     private BigDecimal itemPrice=BigDecimal.valueOf(0);
     private int quantity= 0;
+    private int storeID;
+
 
     public Item(){}
 
@@ -19,9 +22,14 @@ public class Item {
         this.quantity = quantity;
     }
 
-    public Item(int itemID, String itemName,BigDecimal itemPrice, int quantity){
+    public Item(int itemID, String itemName,int quantity,BigDecimal itemPrice){
         this(itemID, itemName, quantity);
         this.itemPrice = itemPrice;
+
+    }
+    public Item(int itemID, String itemName,int quantity,int storeID){
+        this(itemID, itemName, quantity);
+        this.storeID = storeID;
 
     }
 
@@ -49,9 +57,25 @@ public class Item {
     public int getQuantity() {
         return quantity;
     }
-
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+
+    public int getStoreID() {
+        return storeID;
+    }
+    public void setStoreID(int storeID) {
+        this.storeID = storeID;
+    }
+
+
+    public String getItemDescription() {
+        return itemDescription;
+    }
+    public void setItemDescription(String itemDescription) {
+        this.itemDescription = itemDescription;
+    }
+
 
 }

@@ -1,7 +1,0 @@
-
-l	java:S116"XRename this field "current_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øòË
-Ž
-java:S1319"xThe type of the "current_items" object should be an interface such as "List" rather than the implementation "ArrayList".(Äø’õ
-N	java:S106""9Replace this use of System.out or System.err by a logger.(Á¡èŸ
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(Û¬ñÐÿÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äø’õ

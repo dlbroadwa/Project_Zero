@@ -1,21 +1,0 @@
-
-f	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»áÖý
-h	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ï¶çûÿÿÿÿ
-c	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µæ•ƒ
-“
-java:S1319K"xThe type of the "current_items" object should be an interface such as "List" rather than the implementation "ArrayList".(“Ï¶çûÿÿÿÿ
-b
-java:S2095("GUse try-with-resources or close this "ResultSet" in a "finally" clause.(‹€“‰ýÿÿÿÿ
-k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ï¶çûÿÿÿÿ
-l	java:S116
-"XRename this field "current_items" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ÈÜ
-l	java:S116"WRename this field "current_cash" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§‡¼ß
-]
-java:S2095!"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(ýÛ’¹
-‹
-java:S1319G"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡çê÷úÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ô†«
-c	java:S100R"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»áÖý
-h	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡çê÷úÿÿÿÿ
-b
-java:S2095-"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(°¾Ï•ÿÿÿÿÿ

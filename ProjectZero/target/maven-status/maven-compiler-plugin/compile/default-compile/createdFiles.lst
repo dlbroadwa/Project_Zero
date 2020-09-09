@@ -1,0 +1,17 @@
+com\company\connections\MyPostgresConnection.class
+com\company\models\Item.class
+com\company\screens\Screens.class
+com\company\models\InventoryManagementApp.class
+com\company\models\StockInventory.class
+com\company\dao\StockInventoryDAO.class
+com\company\dao\UserPocketDAO.class
+com\company\models\StoreInventory.class
+com\company\dao\ClientDAO.class
+com\company\dao\StoreInventoryDAO.class
+com\company\models\Application.class
+com\company\models\User.class
+com\company\models\Client.class
+com\company\Main.class
+com\company\connections\MyConnection.class
+com\company\dao\UserDAO.class
+com\company\dao\DAO.class
