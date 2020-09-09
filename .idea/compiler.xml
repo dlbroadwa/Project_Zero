@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ProjectZero" />
         <module name="Projectzerotest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ProjectZero" target="1.8" />
       <module name="Projectzerotest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

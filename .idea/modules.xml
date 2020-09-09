@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Project_Zero.iml" filepath="$PROJECT_DIR$/.idea/Project_Zero.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProjectZero/Projectzerotest.iml" filepath="$PROJECT_DIR$/ProjectZero/Projectzerotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../ProjectZero/Project_Zero.iml" filepath="$PROJECT_DIR$/../../ProjectZero/Project_Zero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projectzerotest.iml" filepath="$PROJECT_DIR$/Projectzerotest.iml" />
     </modules>
   </component>
 </project>
