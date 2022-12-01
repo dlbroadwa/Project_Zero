@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class MyPostgresConnection extends MyConnection {
-    //The static block is used to preempt the data base connection
+    //This static block is used to preempt the database connection
     static {
         try {
             DriverManager.registerDriver(new Driver());
@@ -17,26 +17,26 @@ public class MyPostgresConnection extends MyConnection {
             throwables.printStackTrace();
         }
     }
-
+    // Connection class inherited from the abstract Connection class
     public MyPostgresConnection(String url, String username, String password, String schema) {
+        //sets inherited variables for the new class
         this.url = url;
         this.username = username;
         this.password = password;
         this.schema = schema;
 
     }
-
+    /*** Calls the inherited method to located and access the DB using Driver manager ***/
     public Connection getConnection() throws SQLException {
         return DriverManager.getConnection(url, username, password);
     }
 
-
+    /**********************CONNECTS TO THE DATABASE AND CALLS THE APPLICATION **************************************/
     public String getDefaultSchema() {
         return this.schema;
     }
 
-    ///**********************CONNECTS TO THE DATABASE AND CALLS THE APPLICATION **/
-//    /************************************* ***************************************/
+    //
 //    public void testConnection(){
 //        try {
 //            // tests if database is connected

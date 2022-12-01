@@ -15,14 +15,19 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+        // print text to screen on app start
         System.out.println("Hello this is my inventory app");
-        System.out.println("<p> You have reached my Inventory APP</p>");
 
-        //database connection used to link to the AWS DB
+        // print output for webapp
+        //System.out.println("<p> You have reached my Inventory APP</p>");
+
+        //database connection used to link to the app-code to the Database.
         new MyPostgresConnection(
-                "jdbc:postgresql://localhost:5432/postgres",
-                "postgres","enter123","inventoryapp");
 
+                "jdbc:postgresql://localhost:5432/postgres",
+                "postgres","enter123","inventoryapp"
+                //Use the connection class variables to connect to DB application.
+        );
 
     }
 }
